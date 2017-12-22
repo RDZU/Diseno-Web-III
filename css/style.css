@@ -165,3 +165,11 @@ h3 {
   .btn-blue:hover, .btn-blue:focus {
     background-color: #34C6D3;
     color: #fff; }
+
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url(../img/bg-about.jpg);
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent; }
