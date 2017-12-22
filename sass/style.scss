@@ -364,5 +364,94 @@
     }
     
                         
-                                                                       
+             /*===============================================
+                                    Testimonials
+            ================================================*/
+            
+            #testimonials-cover {
+                background-image: url("../img/bg-testimonials.jpg");
+            }
+            
+            #testimonials {
+                .content-box {
+                    background-color: rgba(0, 0, 0, 0.1);
+                }
+            }
+            
+            #customers-testimonials {
+                padding: 50px 0;
+            }
+            
+            .testimonial {
+            
+                img {
+                    max-width: 120px;
+                    margin: 0 auto 0 auto;
+                }
+            
+            }
+
+            /* = ADD Content= */
+
+            .content-title-white {
+                h3 {
+                    color: $white;
+                }
+            }
+                            
+                        .testimonial {
+    
+        blockquote {
+    
+            border: 0;
+            font-family: Georgia, sans-serif;
+            font-style: italic;
+            padding: 6px 150px;
+            position: relative;
+    
+            p {
+                color: $white;
+            }
+    
+            ::before {
+                content: "\201C";
+                font-size: 80px;
+                font-style: normal;
+                line-height: 1;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                top: 0;
+                left: 100px;
+            }
+    
+            ::after {
+                content: "\201D";
+                font-size: 80px;
+                font-style: normal;
+                line-height: 1;
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                right: 100px;
+                bottom: 0;
+            }
+    
+        }
+            
+    }
+                            
+                        .testimonial-author {
+        p {
+            color: $white;
+            font-size: 17px;
+    
+            strong {
+                display: block;
+            }
+        }
+    
+    }
+                            
+                                                                                  
                     
