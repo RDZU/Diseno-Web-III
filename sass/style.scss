@@ -244,3 +244,30 @@
     border-left: 200px solid $white;
     border-top: 700px solid transparent;
 }             
+
+
+/*===============================================
+                        Work
+================================================*/
+.row {
+    .no-padding-lr {
+    //    padding-left:0 ;
+      // padding-right:0;
+    }
+}
+           .img-wrapper {
+
+    overflow: hidden;
+
+    img {
+
+        transition: transform .5s ease;
+
+        &:hover {
+            transform:scale(1.5);
+        }
+    }
+
+}
+                                
+                    
