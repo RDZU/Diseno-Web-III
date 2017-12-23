@@ -309,3 +309,167 @@ h4.team-member-designation {
   font-size: 17px; }
   .testimonial-author p strong {
     display: block; }
+
+/*===============================================
+                            Pricing
+    ================================================*/
+.pricing-box {
+  border: 3px solid #34C6D3;
+  padding: 50px 0;
+  margin: 40px 0; }
+
+.pricing-title {
+  background-color: #34C6D3;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 30px 0; }
+
+.pricing-value {
+  font-size: 60px;
+  font-weight: 700; }
+
+.pricing-value sup {
+  font-size: 28px;
+  font-weight: normal;
+  vertical-align: super; }
+
+.pricing-spec {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0 60px 0; }
+  .pricing-spec li p {
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.pricing-box-lg {
+  padding: 90px 0;
+  margin: 0;
+  background-color: #34C6D3; }
+  .pricing-box-lg h4 {
+    color: #34C6D3;
+    background-color: #fff; }
+  .pricing-box-lg ul li p {
+    color: #fff; }
+
+/*===============================================
+                                Stats
+        ================================================*/
+#stats-cover {
+  background-image: url("../img/bg-stats.jpg"); }
+
+#stats .content-box {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.stats-item {
+  padding: 100px 0; }
+  .stats-item i {
+    color: #34C6D3; }
+  .stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px; }
+  .stats-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0; }
+
+/*===============================================
+                                Clients
+        ================================================*/
+.client {
+  padding: 40px 0; }
+
+/*===============================================
+                        Contact
+================================================*/
+footer {
+  background-color: #41464B;
+  padding-top: 30px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1); }
+
+#contact-left h3 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700; }
+
+#contact-left p {
+  color: #fff;
+  margin-bottom: 30px; }
+
+#contact-info {
+  background-image: url("../img/world-map.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+address {
+  color: #fff; }
+
+address strong, #phone-fax-email strong {
+  letter-spacing: 1px; }
+
+/*===============================================
+                        Social
+================================================*/
+.icon-white i {
+  color: #fff; }
+
+form .form-control {
+  background: transparent;
+  border-radius: 0;
+  border-color: #fff;
+  font-size: 17px;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  color: #fff; }
+
+/*===============================================
+                        Footer
+================================================*/
+#footer-bottom {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  margin-top: 60px; }
+  #footer-bottom #footer-copyrights p {
+    margin: 0;
+    color: #fff; }
+  #footer-bottom #footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300; }
+    #footer-bottom #footer-menu ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0; }
+      #footer-bottom #footer-menu ul li {
+        display: inline-block; }
+    #footer-bottom #footer-menu a {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 10px;
+      text-decoration: none; }
+      #footer-bottom #footer-menu a:hover {
+        color: #34C6D3; }
+
+/*===============================================
+                        Scroll-Spy
+================================================*/
+.vesco-top-nav ul.navbar-nav li.active a {
+  color: #34C6D3; }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+  display: none; }

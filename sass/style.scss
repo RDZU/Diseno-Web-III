@@ -452,6 +452,248 @@
         }
     
     }
-                            
+      /*===============================================
+                            Pricing
+    ================================================*/
+
+    .pricing-box {
+        border: 3px solid $mediumTurquoise;
+        padding: 50px 0;
+        margin: 40px 0;
+    }
+
+    .pricing-title {
+        background-color: $mediumTurquoise;
+        color: $white;
+        display: inline-block;
+        padding: 7px 15px;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 30px 0;
+    }
+
+    .pricing-value {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .pricing-value {
+        sup {
+            font-size: 28px;
+            font-weight: normal;
+            vertical-align: super;
+        }
+    }
+
+    .pricing-spec {
+        list-style: none;
+        padding-left: 0;
+        margin: 20px 0 60px 0;
+        li {
+            p{
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+             .pricing-box-lg {
+        padding: 90px 0;
+        margin: 0;
+        background-color: $mediumTurquoise;
+
+        h4{
+            color: $mediumTurquoise;
+            background-color: $white;
+        }
+
+        ul {
+            li {
+                p {
+                    color: $white;
+                }
+            }
+        }
+    }
+      /*===============================================
+                                Stats
+        ================================================*/
+
+        #stats-cover {
+            background-image: url("../img/bg-stats.jpg");
+        }
+
+        #stats {
+            .content-box {
+                background-color: rgba(0, 0, 0, .8);
+            }
+        }
+
+        .stats-item {
+            padding: 100px 0;
+
+            i {
+                color: $mediumTurquoise;
+            }
+
+            h2 {
+                color: $white;
+                font-size: 35px;
+                font-weight: 700;
+                margin-top: 15px;
+                margin-bottom: 1px;
+            }
+
+            p {
+                color: $white;
+                text-transform: uppercase;
+                font-weight: 300;
+                margin-top: 0;
+            }
+        }
+                        
+                                      
+              /*===============================================
+                                Clients
+        ================================================*/
+
+        .client {
+            padding: 40px 0;
+        }
+
+        /*===============================================
+                        Contact
+================================================*/
+
+footer {
+    background-color: $steelGrey;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left {
+    h3 {
+        color: $white;
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    p {
+        color: $white;
+        margin-bottom: 30px;
+    }
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: $white;
+}
+
+address strong, #phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+
+/*===============================================
+                        Social
+================================================*/
+
+.icon-white {
+
+    i {
+        color: $white;
+    }
+
+}
+                                 
+  form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: $white;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: $white;
+}
+
+   /*===============================================
+                        Footer
+================================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+
+    #footer-copyrights {
+
+        p {
+            margin: 0;
+            color: $white;
+        }
+
+    }
+
+    #footer-menu {
+        float: left;
+        color: $white;
+        font-size: 16px;
+        font-weight: 300;
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+            }
+        }
+
+        a {
+            color: $white;
+            font-size: 16px;
+            font-weight: 300;
+            margin: 0 10px;
+            text-decoration: none;
+
+            &:hover {
+                color: $mediumTurquoise;
+            }
+        }
+    }
+
+}                     
+     /*===============================================
+                        Scroll-Spy
+================================================*/
+
+.vesco-top-nav {
+    ul.navbar-nav {
+        li.active {
+            a {
+                color:$mediumTurquoise;
+            }
+        }
+    }
+}
+                        
+   .btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+                        
+                                                                                            
                                                                                   
                     
